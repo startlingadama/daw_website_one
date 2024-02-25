@@ -1,0 +1,387 @@
+  body {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+  }
+  
+  .entete {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-image: url("images/bg_body.png");
+      position: fixed;
+      height: 10vw;
+      width: 100vw;
+      justify-content: space-between;
+      margin-bottom: 1%;
+      margin-top: -1%;
+  }
+  
+  .entete>div {
+      display: flex;
+      flex-direction: row;
+      align-self: flex-start;
+      margin-left: 40px;
+  }
+  
+  .logo {
+      width: 5vw;
+      height: 5vw;
+      margin-top: 2.5vw;
+  }
+  
+  .nav {
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: flex-start;
+      justify-items: center;
+      font-size: 1.5vw;
+      text-align: center;
+      margin-right: 4%;
+  }
+  
+  .menu {
+      display: flex;
+      flex-direction: row;
+      align-self: flex-end;
+      top: 5%;
+  }
+  
+  .menu>li {
+      display: inline;
+      width: 8vw;
+      height: 2vw;
+      margin-right: 5px;
+      color: white;
+      padding: 1.7vw;
+  }
+  
+  .menu>li>a {
+      color: white;
+      text-decoration: none;
+  }
+  
+  .menu>li:hover {
+      box-shadow: 0 7px 7px 0 grey;
+      margin: 2px;
+      width: 7vw;
+      height: 2vw;
+  }
+  
+  #home {
+      background-color: #92CE0A;
+  }
+  
+  #vid {
+      background-color: #FFE202;
+  }
+  
+  #camp {
+      background-color: #1254DA;
+  }
+  
+  #volun {
+      background-color: #FF7C00;
+  }
+  
+  #contact {
+      background-color: #04BACF;
+  }
+  
+  #menu>p {
+      font-size: 20px;
+  }
+  
+  .principal {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      margin-top: 10vw;
+  }
+  
+  .pr-div1 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: 0px;
+  }
+  
+  .gr_div {
+      display: flex;
+      flex-direction: column;
+      margin: 2vw;
+  }
+  
+  .gr_div>img {
+      height: 30vw;
+      width: 60vw;
+  }
+  
+  #hope {
+      font-size: 5vw;
+      height: 6vw;
+      text-align: center;
+      justify-self: center;
+      background-color: #92CE0A;
+      margin-top: 0;
+      padding: 5vw;
+      color: white;
+  }
+  
+  .gr_div_text {
+      width: 25em;
+  }
+  
+  .gr_div_text>p {
+      font-size: 1.45vw;
+      width: 30vw;
+  }
+  
+  #donate {
+      background-color: #FF5241;
+      text-align: center;
+      padding: 1vw;
+      width: 30vw;
+      color: white;
+      font-size: 5vw;
+  }
+  
+  #do_descr {
+      font-size: 2.5vw;
+      width: 30vw;
+  }
+  
+  .gr_div_second {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  #y_can,
+  #about,
+  #h_adr,
+  #h_form {
+      margin-left: 2.5vw;
+      margin-bottom: .8vw;
+      color: #0958DB;
+      font-size: 5vw;
+  }
+  
+  .gr_div_second>div {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .liste_img {
+      display: flex;
+      list-style-type: none;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: -2vw;
+      font-size: 2vw;
+      color: white;
+  }
+  
+  .liste_img>li {
+      padding: 1vw;
+      width: 20vw;
+      height: 25vw;
+  }
+  
+  .liste_img>li:hover {
+      box-shadow: 1vw 1vw 0 0 grey;
+      width: 20.2vw;
+      height: 25vw;
+  }
+  
+  .liste_img>li>p {
+      margin: 0px;
+  }
+  
+  .liste_img>li>img {
+      height: 18vw;
+      width: 20vw;
+  }
+  
+  #img1 {
+      background-color: #92CE0A;
+  }
+  
+  #img2 {
+      background-color: #FFE202;
+  }
+  
+  #img3 {
+      background-color: #0052DA;
+  }
+  
+  #img4 {
+      background-color: #FF7F00;
+  }
+  /* about */
+  
+  .cl_about {
+      display: flex;
+      flex-direction: row;
+      margin-left: 2.5vw;
+      margin-right: 2.5vw;
+  }
+  
+  .about_t {
+      margin-left: 2vw;
+      width: 30vw;
+      font-size: 1.45vw;
+  }
+  
+  #img_f {
+      height: 20vw;
+      width: 24vw;
+  }
+  /* footer */
+  
+  .div_bar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  
+  .reseau {
+      display: flex;
+      position: absolute;
+      flex-direction: row;
+      list-style: none;
+      gap: .8vw;
+      right: 0;
+      margin: 4vw;
+  }
+  
+  .reseau>li {
+      width: 2.5wv;
+      padding: 1vw;
+      align-self: center;
+      margin-bottom: 1vw;
+  }
+  
+  .reseau>li:hover {
+      height: 2vw;
+      width: 2vw;
+      margin-bottom: 2vw;
+      padding: 2vw;
+      box-shadow: 0 1vw 1vw 0 grey;
+  }
+  
+  #copy {
+      margin-left: 2.5vw;
+  }
+  
+  #copy>h3 {
+      color: #0052DA;
+      font-size: 2vw;
+      margin-bottom: .4vw;
+  }
+  
+  #copy>p {
+      font-size: 1.5vw;
+      margin-top: 0px;
+  }
+  
+  .reseau>li>a>img {
+      display: inline;
+      height: 50px;
+      width: 50px;
+  }
+  
+  #f {
+      background-color: #92CE0A;
+  }
+  
+  #t {
+      background-color: #FFE202;
+  }
+  
+  #p {
+      background-color: #FF7F00;
+  }
+  /* media */
+  /*
+  @media screen and (min-width: 270px) {
+      .liste_img {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+      }
+  }
+  */
+  
+  */
+  /* page contact */
+  
+  .principa {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      margin-top: 10vw;
+  }
+  
+  .contact_bloc {
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .adr_div {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-left: 3vw;
+  }
+  
+  #googleMap>iframe {
+      width: 95vw;
+      margin: 2vw;
+  }
+  
+  .adr_div>div {
+      font-size: 1.5vw;
+      margin-left: 2.5vw;
+  }
+  
+  #form-message {
+      width: 70vw;
+  }
+  
+  #form-message>p {
+      align-items: center;
+      font-size: 2.5vw;
+  }
+  
+  #form-message>p>input {
+      height: 3vw;
+      width: 13vw;
+      font-size: 1.5vw;
+  }
+  
+  #form-message>p>input {
+      font-size: 1.5vw;
+  }
+  
+  .formulaire {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  #area {
+      width: 70vw;
+      height: 10vw;
+      font-size: 1.5vw;
+      margin-bottom: 0;
+  }
+  
+  #last_input {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.5vw;
+  }
+  
+  #last_input>input {
+      background-color: #92CE0A;
+  }

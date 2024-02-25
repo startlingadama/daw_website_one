@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        
+        <link rel = "stylesheet" href="index.css" >
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--
+        <link href="dist\css\bootstrap.min.css" rel="stylesheet" >
+        -->
+        <title>Contact</title>
+    </head>
+    <body>
+        <header class="entete container text-center row row-cols-auto">
+            <div class="col">
+                <a href="home.html"><img src="images/logo.jpg" alt="logo" class ="logo"/></a>
+            </div>
+            <nav class="nav container col text-center">
+                <ul class="menu row row-cols-auto">
+                    <li id ="home" class="col"><a href="index.html">HOME</a></li>
+                    <li id="vid"><a class="col" class="col" href="#">VIDEOS</a></li>
+                    <li id="camp"><a class="col" href="#">CAMPAIGNS</a></li>
+                    <li id="volun"><a class="col" href="#">VOLUNTEER</a></li>
+                    <li id="contact"><a class="col" href="contact.html">CONTACTS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="principa">
+            <div class="map pr-div1">
+                <div id="googleMap">
+                    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26172.381188979445!2d-2.397967625683557!3d34.9177998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7823b8a2e07bbd%3A0xf62bf17fb85b03e9!2sRSB%20Football%20Academy!5e0!3m2!1sen!2sma!4v1708818664650!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+
+            <div class="contact_bloc">
+                <div class="adr_div">
+                    <h2 id="h_adr">ADRESS</h2>
+                    <div>
+                        <p>
+                            The Company Nam Ino <br/>
+                            Offshore <br/>
+                            Oujda
+                        </p>
+
+                        <div>
+                            <p>Freephone: +1 80 599 6580</p>
+                            <p>Telephone: +1 800 603 6035</P>
+                            <p>FAX:       +1 800 889 9898</p>
+                            <p>E-mail: <a href="mailto:mail@demolink.org">mail@demolink.org</a></p>
+                            <p>Skype: <a href="https:skype.com/">@skypename</a></p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="formulaire">
+                    <h2 id="h_form">CONTACT FORM</h2>
+
+                    <form id="form-message" >
+                        <p>
+                            <label for="name">Name: </label>
+                            <input type="text" id="name" pattern="^[a-zA-Z][0-9A-Za-z]*" required>
+                            <label for="mail">E-mail: </label>
+                            <input type="mail" id="mail" pattern="^[a-zA-Z].*@[0-9a-zA-Z]\..*" required>
+                            <label for="tel">Phone: </label>
+                            <input type="phone" id="tel" >
+                        </p>
+                        <p>
+                            <textarea id="area" for="form_message" placeholder="Message: " name="message"  = ></textarea>
+                        </p>
+                        <p id="last_input">
+                            <input type="submit" value="SEND" required>
+                            <input type="reset" value="CLEAR" required>
+                        </p>
+                    </form>
+                </div>
+            </div>
+
+        </main>
+        <footer class="pied">
+            <hr>
+            <div class="div_bar">
+                <div id="copy">
+                    <h3>Dév digital</h3>
+                    <p> &copy; 2022 | Privacy Policy</p>
+    
+                </div>
+                <div>
+                    <ul class="reseau row row-cols-auto">
+                        <li class="col" id="f"><a href="https://facebook.com"><img src = "images/facebook.png"/></a></li>
+                        <li class="col" id="t"><a href="https://twitter.com"><img src = "images/twitter.png"/></a></li>
+                        <li class="col" id="p"><a href="https://pinterest.com"> <img src = "images/pinterest.png" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="dist\js\bootstrap.bundle.min.js" ></script>
+    </body>
+</html> 
